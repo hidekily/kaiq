@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+#at{
+    margin-top: 2%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    height: 800px;
+
+
+}
+
+#onhover{
+    transform: scale(90%);
+    border: 2px solid black;
+    transition: 1s;
+}
+#onhover:hover{
+    transform: scale(95%);
+}
+
+#onhover2{
+    transform: scale(70%);
+    border: 2px solid black;
+    transition: 1s;
+}
+#onhover2:hover{
+    transform: scale(75%);
+}
+
+#sep{
+    height: 10px;
+    background-color: black;
+}
+
+#per{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    height: 800px;
+
+    gap: .5rem;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid rgb(11, 75, 75);
+
+    width: 33%;
+    height: 80%;
+
+    gap: 3rem;
+
+    transition: .7s;
+}
+
+#box:hover{
+    transform: translateY(15px);
+}
